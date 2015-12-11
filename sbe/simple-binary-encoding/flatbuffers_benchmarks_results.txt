@@ -1,0 +1,809 @@
+# VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+# VM options: -Dfile.encoding=Cp1252
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.enner.flatbuffers.bench.BenchmarkComparison.flatDecodeDirect
+
+# Run progress: 0.00% complete, ETA 00:08:40
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.011 us/op
+# Warmup Iteration   2: 0.011 us/op
+# Warmup Iteration   3: 0.007 us/op
+# Warmup Iteration   4: 0.007 us/op
+# Warmup Iteration   5: 0.007 us/op
+# Warmup Iteration   6: 0.007 us/op
+# Warmup Iteration   7: 0.007 us/op
+# Warmup Iteration   8: 0.007 us/op
+# Warmup Iteration   9: 0.007 us/op
+# Warmup Iteration  10: 0.007 us/op
+Iteration   1: 0.007 us/op
+Iteration   2: 0.007 us/op
+Iteration   3: 0.007 us/op
+Iteration   4: 0.007 us/op
+Iteration   5: 0.007 us/op
+Iteration   6: 0.007 us/op
+Iteration   7: 0.007 us/op
+Iteration   8: 0.007 us/op
+Iteration   9: 0.007 us/op
+Iteration  10: 0.007 us/op
+
+# Run progress: 3.85% complete, ETA 00:10:09
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.011 us/op
+# Warmup Iteration   2: 0.010 us/op
+# Warmup Iteration   3: 0.007 us/op
+# Warmup Iteration   4: 0.007 us/op
+# Warmup Iteration   5: 0.007 us/op
+# Warmup Iteration   6: 0.007 us/op
+# Warmup Iteration   7: 0.007 us/op
+# Warmup Iteration   8: 0.007 us/op
+# Warmup Iteration   9: 0.007 us/op
+# Warmup Iteration  10: 0.007 us/op
+Iteration   1: 0.007 us/op
+Iteration   2: 0.007 us/op
+Iteration   3: 0.007 us/op
+Iteration   4: 0.007 us/op
+Iteration   5: 0.007 us/op
+Iteration   6: 0.007 us/op
+Iteration   7: 0.007 us/op
+Iteration   8: 0.007 us/op
+Iteration   9: 0.007 us/op
+Iteration  10: 0.007 us/op
+
+
+Result: 0.007 ±(99.9%) 0.000 us/op [Average]
+  Statistics: (min, avg, max) = (0.007, 0.007, 0.007), stdev = 0.000
+  Confidence interval (99.9%): [0.007, 0.007]
+
+
+# VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+# VM options: -Dfile.encoding=Cp1252
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.enner.flatbuffers.bench.BenchmarkComparison.flatDecodeHeap
+
+# Run progress: 7.69% complete, ETA 00:09:45
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.015 us/op
+# Warmup Iteration   2: 0.013 us/op
+# Warmup Iteration   3: 0.010 us/op
+# Warmup Iteration   4: 0.010 us/op
+# Warmup Iteration   5: 0.010 us/op
+# Warmup Iteration   6: 0.011 us/op
+# Warmup Iteration   7: 0.010 us/op
+# Warmup Iteration   8: 0.011 us/op
+# Warmup Iteration   9: 0.010 us/op
+# Warmup Iteration  10: 0.010 us/op
+Iteration   1: 0.011 us/op
+Iteration   2: 0.010 us/op
+Iteration   3: 0.010 us/op
+Iteration   4: 0.010 us/op
+Iteration   5: 0.010 us/op
+Iteration   6: 0.010 us/op
+Iteration   7: 0.010 us/op
+Iteration   8: 0.010 us/op
+Iteration   9: 0.010 us/op
+Iteration  10: 0.010 us/op
+
+# Run progress: 11.54% complete, ETA 00:09:21
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.015 us/op
+# Warmup Iteration   2: 0.013 us/op
+# Warmup Iteration   3: 0.010 us/op
+# Warmup Iteration   4: 0.010 us/op
+# Warmup Iteration   5: 0.011 us/op
+# Warmup Iteration   6: 0.010 us/op
+# Warmup Iteration   7: 0.010 us/op
+# Warmup Iteration   8: 0.010 us/op
+# Warmup Iteration   9: 0.010 us/op
+# Warmup Iteration  10: 0.012 us/op
+Iteration   1: 0.010 us/op
+Iteration   2: 0.011 us/op
+Iteration   3: 0.011 us/op
+Iteration   4: 0.011 us/op
+Iteration   5: 0.010 us/op
+Iteration   6: 0.010 us/op
+Iteration   7: 0.010 us/op
+Iteration   8: 0.010 us/op
+Iteration   9: 0.010 us/op
+Iteration  10: 0.010 us/op
+
+
+Result: 0.010 ±(99.9%) 0.000 us/op [Average]
+  Statistics: (min, avg, max) = (0.010, 0.010, 0.011), stdev = 0.000
+  Confidence interval (99.9%): [0.010, 0.011]
+
+
+# VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+# VM options: -Dfile.encoding=Cp1252
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.enner.flatbuffers.bench.BenchmarkComparison.flatEncodeDirect
+
+# Run progress: 15.38% complete, ETA 00:08:56
+# Fork: 1 of 2
+# Warmup Iteration   1: 1.211 us/op
+# Warmup Iteration   2: 1.008 us/op
+# Warmup Iteration   3: 1.023 us/op
+# Warmup Iteration   4: 1.018 us/op
+# Warmup Iteration   5: 1.027 us/op
+# Warmup Iteration   6: 1.016 us/op
+# Warmup Iteration   7: 1.019 us/op
+# Warmup Iteration   8: 1.015 us/op
+# Warmup Iteration   9: 1.023 us/op
+# Warmup Iteration  10: 1.018 us/op
+Iteration   1: 1.019 us/op
+Iteration   2: 1.017 us/op
+Iteration   3: 1.018 us/op
+Iteration   4: 1.020 us/op
+Iteration   5: 1.022 us/op
+Iteration   6: 1.023 us/op
+Iteration   7: 1.035 us/op
+Iteration   8: 1.030 us/op
+Iteration   9: 1.030 us/op
+Iteration  10: 1.028 us/op
+
+# Run progress: 19.23% complete, ETA 00:08:31
+# Fork: 2 of 2
+# Warmup Iteration   1: 1.230 us/op
+# Warmup Iteration   2: 1.030 us/op
+# Warmup Iteration   3: 1.025 us/op
+# Warmup Iteration   4: 1.027 us/op
+# Warmup Iteration   5: 1.032 us/op
+# Warmup Iteration   6: 1.038 us/op
+# Warmup Iteration   7: 1.034 us/op
+# Warmup Iteration   8: 1.040 us/op
+# Warmup Iteration   9: 1.040 us/op
+# Warmup Iteration  10: 1.048 us/op
+Iteration   1: 1.036 us/op
+Iteration   2: 1.036 us/op
+Iteration   3: 1.035 us/op
+Iteration   4: 1.036 us/op
+Iteration   5: 1.037 us/op
+Iteration   6: 1.033 us/op
+Iteration   7: 1.053 us/op
+Iteration   8: 1.046 us/op
+Iteration   9: 1.044 us/op
+Iteration  10: 1.044 us/op
+
+
+Result: 1.032 ±(99.9%) 0.009 us/op [Average]
+  Statistics: (min, avg, max) = (1.017, 1.032, 1.053), stdev = 0.010
+  Confidence interval (99.9%): [1.023, 1.041]
+
+
+# VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+# VM options: -Dfile.encoding=Cp1252
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.enner.flatbuffers.bench.BenchmarkComparison.flatEncodeHeap
+
+# Run progress: 23.08% complete, ETA 00:08:07
+# Fork: 1 of 2
+# Warmup Iteration   1: 1.748 us/op
+# Warmup Iteration   2: 1.337 us/op
+# Warmup Iteration   3: 1.339 us/op
+# Warmup Iteration   4: 1.353 us/op
+# Warmup Iteration   5: 1.370 us/op
+# Warmup Iteration   6: 1.315 us/op
+# Warmup Iteration   7: 1.351 us/op
+# Warmup Iteration   8: 1.318 us/op
+# Warmup Iteration   9: 1.330 us/op
+# Warmup Iteration  10: 1.354 us/op
+Iteration   1: 1.350 us/op
+Iteration   2: 1.348 us/op
+Iteration   3: 1.349 us/op
+Iteration   4: 1.328 us/op
+Iteration   5: 1.348 us/op
+Iteration   6: 1.352 us/op
+Iteration   7: 1.475 us/op
+Iteration   8: 1.337 us/op
+Iteration   9: 1.349 us/op
+Iteration  10: 1.351 us/op
+
+# Run progress: 26.92% complete, ETA 00:07:43
+# Fork: 2 of 2
+# Warmup Iteration   1: 1.723 us/op
+# Warmup Iteration   2: 1.367 us/op
+# Warmup Iteration   3: 1.369 us/op
+# Warmup Iteration   4: 1.369 us/op
+# Warmup Iteration   5: 1.384 us/op
+# Warmup Iteration   6: 1.374 us/op
+# Warmup Iteration   7: 1.397 us/op
+# Warmup Iteration   8: 1.356 us/op
+# Warmup Iteration   9: 1.386 us/op
+# Warmup Iteration  10: 1.386 us/op
+Iteration   1: 1.385 us/op
+Iteration   2: 1.397 us/op
+Iteration   3: 1.363 us/op
+Iteration   4: 1.381 us/op
+Iteration   5: 1.383 us/op
+Iteration   6: 1.373 us/op
+Iteration   7: 1.377 us/op
+Iteration   8: 1.378 us/op
+Iteration   9: 1.375 us/op
+Iteration  10: 1.376 us/op
+
+
+Result: 1.369 ±(99.9%) 0.027 us/op [Average]
+  Statistics: (min, avg, max) = (1.328, 1.369, 1.475), stdev = 0.031
+  Confidence interval (99.9%): [1.342, 1.396]
+
+
+# VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+# VM options: -Dfile.encoding=Cp1252
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.enner.flatbuffers.bench.BenchmarkComparison.flatUseDirect
+
+# Run progress: 30.77% complete, ETA 00:07:18
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.588 us/op
+# Warmup Iteration   2: 0.578 us/op
+# Warmup Iteration   3: 0.578 us/op
+# Warmup Iteration   4: 0.578 us/op
+# Warmup Iteration   5: 0.573 us/op
+# Warmup Iteration   6: 0.582 us/op
+# Warmup Iteration   7: 0.582 us/op
+# Warmup Iteration   8: 0.580 us/op
+# Warmup Iteration   9: 0.583 us/op
+# Warmup Iteration  10: 0.582 us/op
+Iteration   1: 0.589 us/op
+Iteration   2: 0.588 us/op
+Iteration   3: 0.589 us/op
+Iteration   4: 0.582 us/op
+Iteration   5: 0.587 us/op
+Iteration   6: 0.585 us/op
+Iteration   7: 0.584 us/op
+Iteration   8: 0.584 us/op
+Iteration   9: 0.584 us/op
+Iteration  10: 0.585 us/op
+
+# Run progress: 34.62% complete, ETA 00:06:54
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.619 us/op
+# Warmup Iteration   2: 0.549 us/op
+# Warmup Iteration   3: 0.546 us/op
+# Warmup Iteration   4: 0.546 us/op
+# Warmup Iteration   5: 0.554 us/op
+# Warmup Iteration   6: 0.560 us/op
+# Warmup Iteration   7: 0.553 us/op
+# Warmup Iteration   8: 0.552 us/op
+# Warmup Iteration   9: 0.552 us/op
+# Warmup Iteration  10: 0.551 us/op
+Iteration   1: 0.547 us/op
+Iteration   2: 0.552 us/op
+Iteration   3: 0.551 us/op
+Iteration   4: 0.552 us/op
+Iteration   5: 0.552 us/op
+Iteration   6: 0.553 us/op
+Iteration   7: 0.548 us/op
+Iteration   8: 0.554 us/op
+Iteration   9: 0.539 us/op
+Iteration  10: 0.555 us/op
+
+
+Result: 0.568 ±(99.9%) 0.016 us/op [Average]
+  Statistics: (min, avg, max) = (0.539, 0.568, 0.589), stdev = 0.019
+  Confidence interval (99.9%): [0.552, 0.584]
+
+
+# VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+# VM options: -Dfile.encoding=Cp1252
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.enner.flatbuffers.bench.BenchmarkComparison.flatUseHeap
+
+# Run progress: 38.46% complete, ETA 00:06:29
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.665 us/op
+# Warmup Iteration   2: 0.680 us/op
+# Warmup Iteration   3: 0.674 us/op
+# Warmup Iteration   4: 0.690 us/op
+# Warmup Iteration   5: 0.692 us/op
+# Warmup Iteration   6: 0.688 us/op
+# Warmup Iteration   7: 0.694 us/op
+# Warmup Iteration   8: 0.691 us/op
+# Warmup Iteration   9: 0.691 us/op
+# Warmup Iteration  10: 0.692 us/op
+Iteration   1: 0.691 us/op
+Iteration   2: 0.695 us/op
+Iteration   3: 0.703 us/op
+Iteration   4: 0.705 us/op
+Iteration   5: 0.700 us/op
+Iteration   6: 0.699 us/op
+Iteration   7: 0.698 us/op
+Iteration   8: 0.697 us/op
+Iteration   9: 0.698 us/op
+Iteration  10: 0.685 us/op
+
+# Run progress: 42.31% complete, ETA 00:06:05
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.662 us/op
+# Warmup Iteration   2: 0.727 us/op
+# Warmup Iteration   3: 0.722 us/op
+# Warmup Iteration   4: 0.737 us/op
+# Warmup Iteration   5: 0.693 us/op
+# Warmup Iteration   6: 0.695 us/op
+# Warmup Iteration   7: 0.696 us/op
+# Warmup Iteration   8: 0.680 us/op
+# Warmup Iteration   9: 0.695 us/op
+# Warmup Iteration  10: 0.695 us/op
+Iteration   1: 0.695 us/op
+Iteration   2: 0.698 us/op
+Iteration   3: 0.704 us/op
+Iteration   4: 0.703 us/op
+Iteration   5: 0.704 us/op
+Iteration   6: 0.715 us/op
+Iteration   7: 0.718 us/op
+Iteration   8: 0.713 us/op
+Iteration   9: 0.706 us/op
+Iteration  10: 0.704 us/op
+
+
+Result: 0.702 ±(99.9%) 0.007 us/op [Average]
+  Statistics: (min, avg, max) = (0.685, 0.702, 0.718), stdev = 0.008
+  Confidence interval (99.9%): [0.695, 0.708]
+
+
+# VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+# VM options: -Dfile.encoding=Cp1252
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.enner.flatbuffers.bench.BenchmarkComparison.protoDecode
+
+# Run progress: 46.15% complete, ETA 00:05:40
+# Fork: 1 of 2
+# Warmup Iteration   1: 8.351 us/op
+# Warmup Iteration   2: 6.297 us/op
+# Warmup Iteration   3: 6.328 us/op
+# Warmup Iteration   4: 6.104 us/op
+# Warmup Iteration   5: 5.922 us/op
+# Warmup Iteration   6: 5.954 us/op
+# Warmup Iteration   7: 5.930 us/op
+# Warmup Iteration   8: 5.962 us/op
+# Warmup Iteration   9: 5.953 us/op
+# Warmup Iteration  10: 5.838 us/op
+Iteration   1: 5.938 us/op
+Iteration   2: 5.876 us/op
+Iteration   3: 5.886 us/op
+Iteration   4: 5.981 us/op
+Iteration   5: 5.865 us/op
+Iteration   6: 5.953 us/op
+Iteration   7: 5.847 us/op
+Iteration   8: 5.959 us/op
+Iteration   9: 5.935 us/op
+Iteration  10: 6.019 us/op
+
+# Run progress: 50.00% complete, ETA 00:05:16
+# Fork: 2 of 2
+# Warmup Iteration   1: 8.260 us/op
+# Warmup Iteration   2: 6.291 us/op
+# Warmup Iteration   3: 6.293 us/op
+# Warmup Iteration   4: 6.014 us/op
+# Warmup Iteration   5: 6.055 us/op
+# Warmup Iteration   6: 5.979 us/op
+# Warmup Iteration   7: 5.986 us/op
+# Warmup Iteration   8: 6.028 us/op
+# Warmup Iteration   9: 6.012 us/op
+# Warmup Iteration  10: 5.974 us/op
+Iteration   1: 5.952 us/op
+Iteration   2: 6.009 us/op
+Iteration   3: 5.908 us/op
+Iteration   4: 5.942 us/op
+Iteration   5: 6.020 us/op
+Iteration   6: 5.977 us/op
+Iteration   7: 6.037 us/op
+Iteration   8: 6.001 us/op
+Iteration   9: 5.988 us/op
+Iteration  10: 5.997 us/op
+
+
+Result: 5.955 ±(99.9%) 0.048 us/op [Average]
+  Statistics: (min, avg, max) = (5.847, 5.955, 6.037), stdev = 0.055
+  Confidence interval (99.9%): [5.907, 6.003]
+
+
+# VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+# VM options: -Dfile.encoding=Cp1252
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.enner.flatbuffers.bench.BenchmarkComparison.protoEncode
+
+# Run progress: 53.85% complete, ETA 00:04:52
+# Fork: 1 of 2
+# Warmup Iteration   1: 2.017 us/op
+# Warmup Iteration   2: 1.496 us/op
+# Warmup Iteration   3: 1.510 us/op
+# Warmup Iteration   4: 1.509 us/op
+# Warmup Iteration   5: 1.525 us/op
+# Warmup Iteration   6: 1.518 us/op
+# Warmup Iteration   7: 1.526 us/op
+# Warmup Iteration   8: 1.681 us/op
+# Warmup Iteration   9: 1.674 us/op
+# Warmup Iteration  10: 1.522 us/op
+Iteration   1: 1.511 us/op
+Iteration   2: 1.514 us/op
+Iteration   3: 1.513 us/op
+Iteration   4: 1.508 us/op
+Iteration   5: 1.491 us/op
+Iteration   6: 1.501 us/op
+Iteration   7: 1.517 us/op
+Iteration   8: 1.516 us/op
+Iteration   9: 1.518 us/op
+Iteration  10: 1.513 us/op
+
+# Run progress: 57.69% complete, ETA 00:04:27
+# Fork: 2 of 2
+# Warmup Iteration   1: 2.026 us/op
+# Warmup Iteration   2: 1.477 us/op
+# Warmup Iteration   3: 1.475 us/op
+# Warmup Iteration   4: 1.474 us/op
+# Warmup Iteration   5: 1.487 us/op
+# Warmup Iteration   6: 1.490 us/op
+# Warmup Iteration   7: 1.483 us/op
+# Warmup Iteration   8: 1.480 us/op
+# Warmup Iteration   9: 1.486 us/op
+# Warmup Iteration  10: 1.491 us/op
+Iteration   1: 1.502 us/op
+Iteration   2: 1.495 us/op
+Iteration   3: 1.492 us/op
+Iteration   4: 1.630 us/op
+Iteration   5: 1.498 us/op
+Iteration   6: 1.668 us/op
+Iteration   7: 1.509 us/op
+Iteration   8: 1.516 us/op
+Iteration   9: 1.487 us/op
+Iteration  10: 1.586 us/op
+
+
+Result: 1.524 ±(99.9%) 0.041 us/op [Average]
+  Statistics: (min, avg, max) = (1.487, 1.524, 1.668), stdev = 0.048
+  Confidence interval (99.9%): [1.483, 1.566]
+
+
+# VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+# VM options: -Dfile.encoding=Cp1252
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.enner.flatbuffers.bench.BenchmarkComparison.protoNanoDecode
+
+# Run progress: 61.54% complete, ETA 00:04:03
+# Fork: 1 of 2
+# Warmup Iteration   1: 1.233 us/op
+# Warmup Iteration   2: 1.016 us/op
+# Warmup Iteration   3: 1.002 us/op
+# Warmup Iteration   4: 0.975 us/op
+# Warmup Iteration   5: 0.972 us/op
+# Warmup Iteration   6: 0.964 us/op
+# Warmup Iteration   7: 0.962 us/op
+# Warmup Iteration   8: 0.961 us/op
+# Warmup Iteration   9: 0.965 us/op
+# Warmup Iteration  10: 0.960 us/op
+Iteration   1: 0.958 us/op
+Iteration   2: 0.963 us/op
+Iteration   3: 0.965 us/op
+Iteration   4: 0.955 us/op
+Iteration   5: 0.972 us/op
+Iteration   6: 0.982 us/op
+Iteration   7: 0.980 us/op
+Iteration   8: 0.978 us/op
+Iteration   9: 0.978 us/op
+Iteration  10: 0.983 us/op
+
+# Run progress: 65.38% complete, ETA 00:03:39
+# Fork: 2 of 2
+# Warmup Iteration   1: 1.103 us/op
+# Warmup Iteration   2: 0.993 us/op
+# Warmup Iteration   3: 0.952 us/op
+# Warmup Iteration   4: 0.948 us/op
+# Warmup Iteration   5: 0.944 us/op
+# Warmup Iteration   6: 0.965 us/op
+# Warmup Iteration   7: 0.975 us/op
+# Warmup Iteration   8: 0.972 us/op
+# Warmup Iteration   9: 0.972 us/op
+# Warmup Iteration  10: 0.975 us/op
+Iteration   1: 0.972 us/op
+Iteration   2: 0.963 us/op
+Iteration   3: 1.034 us/op
+Iteration   4: 0.966 us/op
+Iteration   5: 0.995 us/op
+Iteration   6: 1.056 us/op
+Iteration   7: 1.057 us/op
+Iteration   8: 1.083 us/op
+Iteration   9: 1.015 us/op
+Iteration  10: 0.963 us/op
+
+
+Result: 0.991 ±(99.9%) 0.033 us/op [Average]
+  Statistics: (min, avg, max) = (0.955, 0.991, 1.083), stdev = 0.038
+  Confidence interval (99.9%): [0.958, 1.023]
+
+
+# VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+# VM options: -Dfile.encoding=Cp1252
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.enner.flatbuffers.bench.BenchmarkComparison.protoNanoEncode
+
+# Run progress: 69.23% complete, ETA 00:03:14
+# Fork: 1 of 2
+# Warmup Iteration   1: 1.574 us/op
+# Warmup Iteration   2: 1.268 us/op
+# Warmup Iteration   3: 1.222 us/op
+# Warmup Iteration   4: 1.190 us/op
+# Warmup Iteration   5: 1.196 us/op
+# Warmup Iteration   6: 1.206 us/op
+# Warmup Iteration   7: 1.190 us/op
+# Warmup Iteration   8: 1.209 us/op
+# Warmup Iteration   9: 1.225 us/op
+# Warmup Iteration  10: 1.208 us/op
+Iteration   1: 1.210 us/op
+Iteration   2: 1.193 us/op
+Iteration   3: 1.220 us/op
+Iteration   4: 1.177 us/op
+Iteration   5: 1.191 us/op
+Iteration   6: 1.185 us/op
+Iteration   7: 1.195 us/op
+Iteration   8: 1.175 us/op
+Iteration   9: 1.189 us/op
+Iteration  10: 1.197 us/op
+
+# Run progress: 73.08% complete, ETA 00:02:50
+# Fork: 2 of 2
+# Warmup Iteration   1: 1.570 us/op
+# Warmup Iteration   2: 1.367 us/op
+# Warmup Iteration   3: 1.328 us/op
+# Warmup Iteration   4: 1.346 us/op
+# Warmup Iteration   5: 1.345 us/op
+# Warmup Iteration   6: 1.355 us/op
+# Warmup Iteration   7: 1.335 us/op
+# Warmup Iteration   8: 1.337 us/op
+# Warmup Iteration   9: 1.370 us/op
+# Warmup Iteration  10: 1.347 us/op
+Iteration   1: 1.349 us/op
+Iteration   2: 1.353 us/op
+Iteration   3: 1.338 us/op
+Iteration   4: 1.351 us/op
+Iteration   5: 1.348 us/op
+Iteration   6: 1.344 us/op
+Iteration   7: 1.349 us/op
+Iteration   8: 1.342 us/op
+Iteration   9: 1.342 us/op
+Iteration  10: 1.368 us/op
+
+
+Result: 1.271 ±(99.9%) 0.070 us/op [Average]
+  Statistics: (min, avg, max) = (1.175, 1.271, 1.368), stdev = 0.080
+  Confidence interval (99.9%): [1.201, 1.341]
+
+
+# VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+# VM options: -Dfile.encoding=Cp1252
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.enner.flatbuffers.bench.BenchmarkComparison.protoNanoMerge
+
+# Run progress: 76.92% complete, ETA 00:02:26
+# Fork: 1 of 2
+# Warmup Iteration   1: 1.304 us/op
+# Warmup Iteration   2: 1.128 us/op
+# Warmup Iteration   3: 1.105 us/op
+# Warmup Iteration   4: 1.118 us/op
+# Warmup Iteration   5: 1.125 us/op
+# Warmup Iteration   6: 1.090 us/op
+# Warmup Iteration   7: 1.104 us/op
+# Warmup Iteration   8: 1.116 us/op
+# Warmup Iteration   9: 1.105 us/op
+# Warmup Iteration  10: 1.121 us/op
+Iteration   1: 1.107 us/op
+Iteration   2: 1.115 us/op
+Iteration   3: 1.113 us/op
+Iteration   4: 1.119 us/op
+Iteration   5: 1.117 us/op
+Iteration   6: 1.116 us/op
+Iteration   7: 1.124 us/op
+Iteration   8: 1.232 us/op
+Iteration   9: 1.167 us/op
+Iteration  10: 1.251 us/op
+
+# Run progress: 80.77% complete, ETA 00:02:01
+# Fork: 2 of 2
+# Warmup Iteration   1: 1.384 us/op
+# Warmup Iteration   2: 1.168 us/op
+# Warmup Iteration   3: 1.077 us/op
+# Warmup Iteration   4: 1.147 us/op
+# Warmup Iteration   5: 1.095 us/op
+# Warmup Iteration   6: 1.126 us/op
+# Warmup Iteration   7: 1.064 us/op
+# Warmup Iteration   8: 1.048 us/op
+# Warmup Iteration   9: 1.096 us/op
+# Warmup Iteration  10: 1.103 us/op
+Iteration   1: 1.184 us/op
+Iteration   2: 1.132 us/op
+Iteration   3: 1.077 us/op
+Iteration   4: 1.158 us/op
+Iteration   5: 1.054 us/op
+Iteration   6: 1.095 us/op
+Iteration   7: 1.100 us/op
+Iteration   8: 1.079 us/op
+Iteration   9: 1.050 us/op
+Iteration  10: 1.038 us/op
+
+
+Result: 1.121 ±(99.9%) 0.048 us/op [Average]
+  Statistics: (min, avg, max) = (1.038, 1.121, 1.251), stdev = 0.055
+  Confidence interval (99.9%): [1.073, 1.169]
+
+
+# VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+# VM options: -Dfile.encoding=Cp1252
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.enner.flatbuffers.bench.BenchmarkComparison.protoNanoUse
+
+# Run progress: 84.62% complete, ETA 00:01:37
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.026 us/op
+# Warmup Iteration   2: 0.027 us/op
+# Warmup Iteration   3: 0.024 us/op
+# Warmup Iteration   4: 0.024 us/op
+# Warmup Iteration   5: 0.023 us/op
+# Warmup Iteration   6: 0.023 us/op
+# Warmup Iteration   7: 0.023 us/op
+# Warmup Iteration   8: 0.024 us/op
+# Warmup Iteration   9: 0.025 us/op
+# Warmup Iteration  10: 0.023 us/op
+Iteration   1: 0.023 us/op
+Iteration   2: 0.024 us/op
+Iteration   3: 0.023 us/op
+Iteration   4: 0.023 us/op
+Iteration   5: 0.024 us/op
+Iteration   6: 0.023 us/op
+Iteration   7: 0.023 us/op
+Iteration   8: 0.023 us/op
+Iteration   9: 0.023 us/op
+Iteration  10: 0.024 us/op
+
+# Run progress: 88.46% complete, ETA 00:01:13
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.024 us/op
+# Warmup Iteration   2: 0.025 us/op
+# Warmup Iteration   3: 0.023 us/op
+# Warmup Iteration   4: 0.023 us/op
+# Warmup Iteration   5: 0.024 us/op
+# Warmup Iteration   6: 0.023 us/op
+# Warmup Iteration   7: 0.023 us/op
+# Warmup Iteration   8: 0.023 us/op
+# Warmup Iteration   9: 0.023 us/op
+# Warmup Iteration  10: 0.023 us/op
+Iteration   1: 0.023 us/op
+Iteration   2: 0.024 us/op
+Iteration   3: 0.023 us/op
+Iteration   4: 0.024 us/op
+Iteration   5: 0.024 us/op
+Iteration   6: 0.023 us/op
+Iteration   7: 0.023 us/op
+Iteration   8: 0.023 us/op
+Iteration   9: 0.023 us/op
+Iteration  10: 0.024 us/op
+
+
+Result: 0.023 ±(99.9%) 0.000 us/op [Average]
+  Statistics: (min, avg, max) = (0.023, 0.023, 0.024), stdev = 0.000
+  Confidence interval (99.9%): [0.023, 0.024]
+
+
+# VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+# VM options: -Dfile.encoding=Cp1252
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.enner.flatbuffers.bench.BenchmarkComparison.protoUse
+
+# Run progress: 92.31% complete, ETA 00:00:48
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.042 us/op
+# Warmup Iteration   2: 0.037 us/op
+# Warmup Iteration   3: 0.035 us/op
+# Warmup Iteration   4: 0.036 us/op
+# Warmup Iteration   5: 0.036 us/op
+# Warmup Iteration   6: 0.036 us/op
+# Warmup Iteration   7: 0.036 us/op
+# Warmup Iteration   8: 0.036 us/op
+# Warmup Iteration   9: 0.036 us/op
+# Warmup Iteration  10: 0.036 us/op
+Iteration   1: 0.036 us/op
+Iteration   2: 0.036 us/op
+Iteration   3: 0.036 us/op
+Iteration   4: 0.036 us/op
+Iteration   5: 0.036 us/op
+Iteration   6: 0.036 us/op
+Iteration   7: 0.036 us/op
+Iteration   8: 0.036 us/op
+Iteration   9: 0.035 us/op
+Iteration  10: 0.036 us/op
+
+# Run progress: 96.15% complete, ETA 00:00:24
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.041 us/op
+# Warmup Iteration   2: 0.038 us/op
+# Warmup Iteration   3: 0.036 us/op
+# Warmup Iteration   4: 0.035 us/op
+# Warmup Iteration   5: 0.036 us/op
+# Warmup Iteration   6: 0.035 us/op
+# Warmup Iteration   7: 0.036 us/op
+# Warmup Iteration   8: 0.036 us/op
+# Warmup Iteration   9: 0.036 us/op
+# Warmup Iteration  10: 0.036 us/op
+Iteration   1: 0.036 us/op
+Iteration   2: 0.036 us/op
+Iteration   3: 0.036 us/op
+Iteration   4: 0.036 us/op
+Iteration   5: 0.036 us/op
+Iteration   6: 0.036 us/op
+Iteration   7: 0.036 us/op
+Iteration   8: 0.036 us/op
+Iteration   9: 0.035 us/op
+Iteration  10: 0.036 us/op
+
+
+Result: 0.036 ±(99.9%) 0.000 us/op [Average]
+  Statistics: (min, avg, max) = (0.035, 0.036, 0.036), stdev = 0.000
+  Confidence interval (99.9%): [0.036, 0.036]
+
+
+# Run complete. Total time: 00:10:34
+
+Benchmark                                       Mode  Samples  Score  Score error  Units
+o.e.f.b.BenchmarkComparison.flatDecodeDirect    avgt       20  0.007        0.000  us/op
+o.e.f.b.BenchmarkComparison.flatDecodeHeap      avgt       20  0.010        0.000  us/op
+o.e.f.b.BenchmarkComparison.flatEncodeDirect    avgt       20  1.032        0.009  us/op
+o.e.f.b.BenchmarkComparison.flatEncodeHeap      avgt       20  1.369        0.027  us/op
+o.e.f.b.BenchmarkComparison.flatUseDirect       avgt       20  0.568        0.016  us/op
+o.e.f.b.BenchmarkComparison.flatUseHeap         avgt       20  0.702        0.007  us/op
+o.e.f.b.BenchmarkComparison.protoDecode         avgt       20  5.955        0.048  us/op
+o.e.f.b.BenchmarkComparison.protoEncode         avgt       20  1.524        0.041  us/op
+o.e.f.b.BenchmarkComparison.protoNanoDecode     avgt       20  0.991        0.033  us/op
+o.e.f.b.BenchmarkComparison.protoNanoEncode     avgt       20  1.271        0.070  us/op
+o.e.f.b.BenchmarkComparison.protoNanoMerge      avgt       20  1.121        0.048  us/op
+o.e.f.b.BenchmarkComparison.protoNanoUse        avgt       20  0.023        0.000  us/op
+o.e.f.b.BenchmarkComparison.protoUse            avgt       20  0.036        0.000  us/op

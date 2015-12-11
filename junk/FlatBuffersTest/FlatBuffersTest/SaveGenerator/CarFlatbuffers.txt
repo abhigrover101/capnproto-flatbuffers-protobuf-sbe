@@ -1,0 +1,75 @@
+// test schema file
+
+//include "include_test1.fbs";
+
+namespace org.ucsc.flatbuffers.bench;
+
+attribute "priority";
+
+enum BooleanType:ubyte { FALSE = 0, TRUE = 1, }
+enum Model:ubyte { A=0, B=1, C=2, }
+//enum OptionalExtras:ubyte (bit_flags) { sunRoof, sportsPack, cruiseControl, }
+
+
+//union Any { Monster, TestSimpleTableWithEnum }  // TODO: add more elements
+
+//struct Test { a:short; b:byte; }
+
+//struct messageHeader{
+//	blockLength:ushort; templateId:ushort; schemaId:ushort;version:ushort;
+//}
+
+struct groupSizeEncoding{
+	blockLength:ushort; numInGroup:ubyte;
+}
+
+struct varDataEncoding{
+	length:ubyte; varData:ubyte;
+}
+
+	table Engine{
+		capacity:ushort;
+		numCylinders:ubyte;
+		maxRpm:ushort=9000;
+		manufacturerCode:string;
+		fuel:string;
+	}
+
+enum OptionalExtras:short{
+	sunRoof=1, sportsPack=2,cruiseControl=3,
+}
+
+	struct FuelFigures{
+		speed:ushort; mpg:float;
+	}
+
+	struct Mphseconds{
+		mph:ushort;seconds:float;
+	}
+
+	table PerformanceFigures{
+		octaneRating:short; 
+		acceleration:[Mphseconds];
+	}
+
+
+
+
+	table Car{
+		serialNumber:uint (id: 0);
+		modelYear:ushort (id: 2);
+		available:BooleanType (id: 1);
+		code:string (id: 4);
+		someNumbers:[int] (id: 5);
+		vehicleCode:string (id: 6);
+		extras:[short] (id: 7);
+		engine:Engine(id: 8);
+		fuelfigure:[FuelFigures] (id :10);
+		performance:[PerformanceFigures] (id :11);
+		make:string (id: 9);
+		model:string (id: 3);
+	}
+	
+root_type Car;
+
+file_identifier "MONS";

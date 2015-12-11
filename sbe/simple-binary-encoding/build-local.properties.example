@@ -1,0 +1,4 @@
+protobuf.home=C:/Users/abhishek/Downloads/sbe/simple-binary-encoding-4e47d6f9ca3a8a42f36bdc6b8785ffc0db305b74/protobuf
+android.sdk.dir=/home/martin/opt/android-sdk
+android.target=android-19
+android.build.tools.version=20.0.0

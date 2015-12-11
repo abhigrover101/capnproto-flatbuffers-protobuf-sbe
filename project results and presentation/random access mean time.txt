@@ -1,0 +1,4 @@
+Cap'nProto 134.501
+FlatBuffers 57.563
+ProtoBuff 2009.412
+SBE 215.121

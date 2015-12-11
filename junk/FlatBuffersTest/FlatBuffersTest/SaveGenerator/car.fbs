@@ -1,0 +1,54 @@
+// Generated from car.proto
+
+namespace uk.co.real_logic.protobuf.examples;
+
+enum Model : short {
+  A = 0,
+  B = 1,
+  C = 2,
+}
+
+enum Extras : short {
+  SUN_ROOF = 1,
+  SPORTS_PACK = 2,
+  CRUISE_CONTROL = 3,
+}
+
+table Engine {
+  capacity:uint;
+  numCylinders:uint ;
+  maxRpm:uint = 9000;
+  manufacturerCode:string ;
+  fuel:string;
+}
+
+table FuelFigures {
+  speed:uint ;
+  mpg:float ;
+}
+
+table Acceleration {
+  mph:uint ;
+  seconds:float ;
+}
+
+table PerformanceFigures {
+  octaneRating:uint ;
+  acceleration:[Acceleration];
+}
+
+table Car {
+  serialNumber:uint ;
+  modelYear:uint ;
+  available:bool ;
+  code:short ;
+  someNumbers:[int];
+  vehicleCode:string ;
+  optionalExtras:[short];
+  engine:Engine ;
+  fuelFigures:[FuelFigures];
+  performance:[PerformanceFigures];
+  make:string ;
+  model:string ;
+}
+

@@ -1,0 +1,4 @@
+Cap'nProto 344
+Flatbuffers 696
+Protobuf 143
+SBE 120

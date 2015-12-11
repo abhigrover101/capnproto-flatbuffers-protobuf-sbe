@@ -1,0 +1,876 @@
+Buildfile: C:\Users\abhishek\Downloads\sbe\simple-binary-encoding-4e47d6f9ca3a8a42f36bdc6b8785ffc0db305b74\perf-build.xml
+
+clean:
+   [delete] Deleting directory C:\Users\abhishek\Downloads\sbe\simple-binary-encoding-4e47d6f9ca3a8a42f36bdc6b8785ffc0db305b74\target\perf
+
+init:
+    [mkdir] Created dir: C:\Users\abhishek\Downloads\sbe\simple-binary-encoding-4e47d6f9ca3a8a42f36bdc6b8785ffc0db305b74\target\perf\java
+    [mkdir] Created dir: C:\Users\abhishek\Downloads\sbe\simple-binary-encoding-4e47d6f9ca3a8a42f36bdc6b8785ffc0db305b74\target\perf\classes
+    [mkdir] Created dir: C:\Users\abhishek\Downloads\sbe\simple-binary-encoding-4e47d6f9ca3a8a42f36bdc6b8785ffc0db305b74\target\perf\dist
+
+java:codegen:
+
+java:compile:
+    [javac] Compiling 63 source files to C:\Users\abhishek\Downloads\sbe\simple-binary-encoding-4e47d6f9ca3a8a42f36bdc6b8785ffc0db305b74\target\perf\classes
+    [javac] warning: Supported source version 'RELEASE_6' from annotation processor 'org.openjdk.jmh.generators.BenchmarkProcessor' less than -source '1.8'
+    [javac] 1 warning
+    [javac] Compiling 4 source files to C:\Users\abhishek\Downloads\sbe\simple-binary-encoding-4e47d6f9ca3a8a42f36bdc6b8785ffc0db305b74\target\perf\classes
+    [javac] warning: Supported source version 'RELEASE_6' from annotation processor 'org.openjdk.jmh.generators.BenchmarkProcessor' less than -source '1.8'
+    [javac] 1 warning
+      [jar] Building jar: C:\Users\abhishek\Downloads\sbe\simple-binary-encoding-4e47d6f9ca3a8a42f36bdc6b8785ffc0db305b74\target\perf\dist\microbenchmarks.jar
+
+java:perf:test:
+     [java] # VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+     [java] # VM options: -Dagrona.disable.bounds.checks=true
+     [java] # Warmup: 3 iterations, 1 s each
+     [java] # Measurement: 3 iterations, 1 s each
+     [java] # Timeout: 10 min per iteration
+     [java] # Threads: 1 thread, will synchronize iterations
+     [java] # Benchmark mode: Average time, time/op
+     [java] # Benchmark: uk.co.real_logic.protobuf.CarBenchmark.testDecode
+     [java] 
+     [java] # Run progress: 0.00% complete, ETA 00:08:00
+     [java] # Fork: 1 of 10
+     [java] # Warmup Iteration   1: 1.734 us/op
+     [java] # Warmup Iteration   2: 1.353 us/op
+     [java] # Warmup Iteration   3: 1.374 us/op
+     [java] Iteration   1: 1.371 us/op
+     [java] Iteration   2: 1.363 us/op
+     [java] Iteration   3: 1.369 us/op
+     [java] 
+     [java] # Run progress: 1.25% complete, ETA 00:09:50
+     [java] # Fork: 2 of 10
+     [java] # Warmup Iteration   1: 1.731 us/op
+     [java] # Warmup Iteration   2: 1.410 us/op
+     [java] # Warmup Iteration   3: 1.403 us/op
+     [java] Iteration   1: 1.388 us/op
+     [java] Iteration   2: 1.436 us/op
+     [java] Iteration   3: 1.427 us/op
+     [java] 
+     [java] # Run progress: 2.50% complete, ETA 00:09:40
+     [java] # Fork: 3 of 10
+     [java] # Warmup Iteration   1: 1.807 us/op
+     [java] # Warmup Iteration   2: 1.403 us/op
+     [java] # Warmup Iteration   3: 1.392 us/op
+     [java] Iteration   1: 1.417 us/op
+     [java] Iteration   2: 1.402 us/op
+     [java] Iteration   3: 1.439 us/op
+     [java] 
+     [java] # Run progress: 3.75% complete, ETA 00:09:33
+     [java] # Fork: 4 of 10
+     [java] # Warmup Iteration   1: 1.896 us/op
+     [java] # Warmup Iteration   2: 1.410 us/op
+     [java] # Warmup Iteration   3: 1.481 us/op
+     [java] Iteration   1: 1.424 us/op
+     [java] Iteration   2: 1.418 us/op
+     [java] Iteration   3: 1.392 us/op
+     [java] 
+     [java] # Run progress: 5.00% complete, ETA 00:09:25
+     [java] # Fork: 5 of 10
+     [java] # Warmup Iteration   1: 1.786 us/op
+     [java] # Warmup Iteration   2: 1.461 us/op
+     [java] # Warmup Iteration   3: 1.403 us/op
+     [java] Iteration   1: 1.377 us/op
+     [java] Iteration   2: 1.422 us/op
+     [java] Iteration   3: 1.446 us/op
+     [java] 
+     [java] # Run progress: 6.25% complete, ETA 00:09:17
+     [java] # Fork: 6 of 10
+     [java] # Warmup Iteration   1: 1.763 us/op
+     [java] # Warmup Iteration   2: 1.351 us/op
+     [java] # Warmup Iteration   3: 1.366 us/op
+     [java] Iteration   1: 4.929 us/op
+     [java] Iteration   2: 5.457 us/op
+     [java] Iteration   3: 5.320 us/op
+     [java] 
+     [java] # Run progress: 7.50% complete, ETA 00:09:10
+     [java] # Fork: 7 of 10
+     [java] # Warmup Iteration   1: 9.951 us/op
+     [java] # Warmup Iteration   2: 4.777 us/op
+     [java] # Warmup Iteration   3: 3.585 us/op
+     [java] Iteration   1: 3.111 us/op
+     [java] Iteration   2: 2.862 us/op
+     [java] Iteration   3: 2.452 us/op
+     [java] 
+     [java] # Run progress: 8.75% complete, ETA 00:09:08
+     [java] # Fork: 8 of 10
+     [java] # Warmup Iteration   1: 1.668 us/op
+     [java] # Warmup Iteration   2: 1.369 us/op
+     [java] # Warmup Iteration   3: 1.369 us/op
+     [java] Iteration   1: 1.376 us/op
+     [java] Iteration   2: 1.417 us/op
+     [java] Iteration   3: 1.435 us/op
+     [java] 
+     [java] # Run progress: 10.00% complete, ETA 00:09:00
+     [java] # Fork: 9 of 10
+     [java] # Warmup Iteration   1: 1.854 us/op
+     [java] # Warmup Iteration   2: 1.363 us/op
+     [java] # Warmup Iteration   3: 1.368 us/op
+     [java] Iteration   1: 1.409 us/op
+     [java] Iteration   2: 1.370 us/op
+     [java] Iteration   3: 1.374 us/op
+     [java] 
+     [java] # Run progress: 11.25% complete, ETA 00:08:52
+     [java] # Fork: 10 of 10
+     [java] # Warmup Iteration   1: 1.711 us/op
+     [java] # Warmup Iteration   2: 1.344 us/op
+     [java] # Warmup Iteration   3: 1.361 us/op
+     [java] Iteration   1: 1.425 us/op
+     [java] Iteration   2: 1.399 us/op
+     [java] Iteration   3: 1.486 us/op
+     [java] 
+     [java] 
+     [java] Result: 1.930 ±(99.9%) 0.804 us/op [Average]
+     [java]   Statistics: (min, avg, max) = (1.363, 1.930, 5.457), stdev = 1.204
+     [java]   Confidence interval (99.9%): [1.126, 2.735]
+     [java] 
+     [java] 
+     [java] # VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+     [java] # VM options: -Dagrona.disable.bounds.checks=true
+     [java] # Warmup: 3 iterations, 1 s each
+     [java] # Measurement: 3 iterations, 1 s each
+     [java] # Timeout: 10 min per iteration
+     [java] # Threads: 1 thread, will synchronize iterations
+     [java] # Benchmark mode: Average time, time/op
+     [java] # Benchmark: uk.co.real_logic.protobuf.CarBenchmark.testEncode
+     [java] 
+     [java] # Run progress: 12.50% complete, ETA 00:08:44
+     [java] # Fork: 1 of 10
+     [java] # Warmup Iteration   1: 2.965 us/op
+     [java] # Warmup Iteration   2: 1.617 us/op
+     [java] # Warmup Iteration   3: 1.579 us/op
+     [java] Iteration   1: 1.592 us/op
+     [java] Iteration   2: 1.616 us/op
+     [java] Iteration   3: 1.598 us/op
+     [java] 
+     [java] # Run progress: 13.75% complete, ETA 00:08:36
+     [java] # Fork: 2 of 10
+     [java] # Warmup Iteration   1: 2.903 us/op
+     [java] # Warmup Iteration   2: 1.627 us/op
+     [java] # Warmup Iteration   3: 1.643 us/op
+     [java] Iteration   1: 1.660 us/op
+     [java] Iteration   2: 1.651 us/op
+     [java] Iteration   3: 1.621 us/op
+     [java] 
+     [java] # Run progress: 15.00% complete, ETA 00:08:28
+     [java] # Fork: 3 of 10
+     [java] # Warmup Iteration   1: 2.813 us/op
+     [java] # Warmup Iteration   2: 1.587 us/op
+     [java] # Warmup Iteration   3: 1.574 us/op
+     [java] Iteration   1: 1.704 us/op
+     [java] Iteration   2: 1.587 us/op
+     [java] Iteration   3: 1.572 us/op
+     [java] 
+     [java] # Run progress: 16.25% complete, ETA 00:08:21
+     [java] # Fork: 4 of 10
+     [java] # Warmup Iteration   1: 3.311 us/op
+     [java] # Warmup Iteration   2: 2.222 us/op
+     [java] # Warmup Iteration   3: 1.783 us/op
+     [java] Iteration   1: 1.612 us/op
+     [java] Iteration   2: 1.600 us/op
+     [java] Iteration   3: 1.599 us/op
+     [java] 
+     [java] # Run progress: 17.50% complete, ETA 00:08:13
+     [java] # Fork: 5 of 10
+     [java] # Warmup Iteration   1: 2.724 us/op
+     [java] # Warmup Iteration   2: 1.726 us/op
+     [java] # Warmup Iteration   3: 1.695 us/op
+     [java] Iteration   1: 1.581 us/op
+     [java] Iteration   2: 1.629 us/op
+     [java] Iteration   3: 1.587 us/op
+     [java] 
+     [java] # Run progress: 18.75% complete, ETA 00:08:06
+     [java] # Fork: 6 of 10
+     [java] # Warmup Iteration   1: 2.609 us/op
+     [java] # Warmup Iteration   2: 1.590 us/op
+     [java] # Warmup Iteration   3: 1.583 us/op
+     [java] Iteration   1: 1.586 us/op
+     [java] Iteration   2: 1.594 us/op
+     [java] Iteration   3: 1.610 us/op
+     [java] 
+     [java] # Run progress: 20.00% complete, ETA 00:07:58
+     [java] # Fork: 7 of 10
+     [java] # Warmup Iteration   1: 2.585 us/op
+     [java] # Warmup Iteration   2: 2.078 us/op
+     [java] # Warmup Iteration   3: 1.862 us/op
+     [java] Iteration   1: 1.581 us/op
+     [java] Iteration   2: 1.632 us/op
+     [java] Iteration   3: 1.609 us/op
+     [java] 
+     [java] # Run progress: 21.25% complete, ETA 00:07:50
+     [java] # Fork: 8 of 10
+     [java] # Warmup Iteration   1: 4.285 us/op
+     [java] # Warmup Iteration   2: 2.717 us/op
+     [java] # Warmup Iteration   3: 2.309 us/op
+     [java] Iteration   1: 2.135 us/op
+     [java] Iteration   2: 2.345 us/op
+     [java] Iteration   3: 2.040 us/op
+     [java] 
+     [java] # Run progress: 22.50% complete, ETA 00:07:43
+     [java] # Fork: 9 of 10
+     [java] # Warmup Iteration   1: 3.962 us/op
+     [java] # Warmup Iteration   2: 2.199 us/op
+     [java] # Warmup Iteration   3: 2.016 us/op
+     [java] Iteration   1: 1.619 us/op
+     [java] Iteration   2: 1.659 us/op
+     [java] Iteration   3: 1.586 us/op
+     [java] 
+     [java] # Run progress: 23.75% complete, ETA 00:07:35
+     [java] # Fork: 10 of 10
+     [java] # Warmup Iteration   1: 3.001 us/op
+     [java] # Warmup Iteration   2: 2.237 us/op
+     [java] # Warmup Iteration   3: 1.918 us/op
+     [java] Iteration   1: 1.607 us/op
+     [java] Iteration   2: 1.605 us/op
+     [java] Iteration   3: 1.580 us/op
+     [java] 
+     [java] 
+     [java] Result: 1.666 ±(99.9%) 0.120 us/op [Average]
+     [java]   Statistics: (min, avg, max) = (1.572, 1.666, 2.345), stdev = 0.179
+     [java]   Confidence interval (99.9%): [1.547, 1.786]
+     [java] 
+     [java] 
+     [java] # VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+     [java] # VM options: -Dagrona.disable.bounds.checks=true
+     [java] # Warmup: 3 iterations, 1 s each
+     [java] # Measurement: 3 iterations, 1 s each
+     [java] # Timeout: 10 min per iteration
+     [java] # Threads: 1 thread, will synchronize iterations
+     [java] # Benchmark mode: Average time, time/op
+     [java] # Benchmark: uk.co.real_logic.protobuf.MarketDataBenchmark.testDecode
+     [java] 
+     [java] # Run progress: 25.00% complete, ETA 00:07:28
+     [java] # Fork: 1 of 10
+     [java] # Warmup Iteration   1: 0.541 us/op
+     [java] # Warmup Iteration   2: 0.466 us/op
+     [java] # Warmup Iteration   3: 0.459 us/op
+     [java] Iteration   1: 0.476 us/op
+     [java] Iteration   2: 0.461 us/op
+     [java] Iteration   3: 0.460 us/op
+     [java] 
+     [java] # Run progress: 26.25% complete, ETA 00:07:20
+     [java] # Fork: 2 of 10
+     [java] # Warmup Iteration   1: 0.506 us/op
+     [java] # Warmup Iteration   2: 0.587 us/op
+     [java] # Warmup Iteration   3: 0.496 us/op
+     [java] Iteration   1: 0.444 us/op
+     [java] Iteration   2: 0.457 us/op
+     [java] Iteration   3: 0.474 us/op
+     [java] 
+     [java] # Run progress: 27.50% complete, ETA 00:07:13
+     [java] # Fork: 3 of 10
+     [java] # Warmup Iteration   1: 0.535 us/op
+     [java] # Warmup Iteration   2: 0.466 us/op
+     [java] # Warmup Iteration   3: 0.515 us/op
+     [java] Iteration   1: 0.490 us/op
+     [java] Iteration   2: 0.473 us/op
+     [java] Iteration   3: 0.480 us/op
+     [java] 
+     [java] # Run progress: 28.75% complete, ETA 00:07:05
+     [java] # Fork: 4 of 10
+     [java] # Warmup Iteration   1: 0.507 us/op
+     [java] # Warmup Iteration   2: 0.440 us/op
+     [java] # Warmup Iteration   3: 0.446 us/op
+     [java] Iteration   1: 0.446 us/op
+     [java] Iteration   2: 0.453 us/op
+     [java] Iteration   3: 0.454 us/op
+     [java] 
+     [java] # Run progress: 30.00% complete, ETA 00:06:57
+     [java] # Fork: 5 of 10
+     [java] # Warmup Iteration   1: 0.519 us/op
+     [java] # Warmup Iteration   2: 0.473 us/op
+     [java] # Warmup Iteration   3: 0.467 us/op
+     [java] Iteration   1: 0.457 us/op
+     [java] Iteration   2: 0.487 us/op
+     [java] Iteration   3: 0.470 us/op
+     [java] 
+     [java] # Run progress: 31.25% complete, ETA 00:06:50
+     [java] # Fork: 6 of 10
+     [java] # Warmup Iteration   1: 0.508 us/op
+     [java] # Warmup Iteration   2: 0.473 us/op
+     [java] # Warmup Iteration   3: 0.487 us/op
+     [java] Iteration   1: 0.440 us/op
+     [java] Iteration   2: 0.455 us/op
+     [java] Iteration   3: 0.454 us/op
+     [java] 
+     [java] # Run progress: 32.50% complete, ETA 00:06:43
+     [java] # Fork: 7 of 10
+     [java] # Warmup Iteration   1: 0.514 us/op
+     [java] # Warmup Iteration   2: 0.447 us/op
+     [java] # Warmup Iteration   3: 0.448 us/op
+     [java] Iteration   1: 0.449 us/op
+     [java] Iteration   2: 0.450 us/op
+     [java] Iteration   3: 0.455 us/op
+     [java] 
+     [java] # Run progress: 33.75% complete, ETA 00:06:35
+     [java] # Fork: 8 of 10
+     [java] # Warmup Iteration   1: 0.498 us/op
+     [java] # Warmup Iteration   2: 0.469 us/op
+     [java] # Warmup Iteration   3: 0.456 us/op
+     [java] Iteration   1: 0.452 us/op
+     [java] Iteration   2: 0.444 us/op
+     [java] Iteration   3: 0.447 us/op
+     [java] 
+     [java] # Run progress: 35.00% complete, ETA 00:06:28
+     [java] # Fork: 9 of 10
+     [java] # Warmup Iteration   1: 0.499 us/op
+     [java] # Warmup Iteration   2: 0.450 us/op
+     [java] # Warmup Iteration   3: 0.449 us/op
+     [java] Iteration   1: 0.450 us/op
+     [java] Iteration   2: 0.449 us/op
+     [java] Iteration   3: 0.452 us/op
+     [java] 
+     [java] # Run progress: 36.25% complete, ETA 00:06:20
+     [java] # Fork: 10 of 10
+     [java] # Warmup Iteration   1: 0.512 us/op
+     [java] # Warmup Iteration   2: 0.457 us/op
+     [java] # Warmup Iteration   3: 0.488 us/op
+     [java] Iteration   1: 0.466 us/op
+     [java] Iteration   2: 0.493 us/op
+     [java] Iteration   3: 0.474 us/op
+     [java] 
+     [java] 
+     [java] Result: 0.460 ±(99.9%) 0.010 us/op [Average]
+     [java]   Statistics: (min, avg, max) = (0.440, 0.460, 0.493), stdev = 0.015
+     [java]   Confidence interval (99.9%): [0.451, 0.470]
+     [java] 
+     [java] 
+     [java] # VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+     [java] # VM options: -Dagrona.disable.bounds.checks=true
+     [java] # Warmup: 3 iterations, 1 s each
+     [java] # Measurement: 3 iterations, 1 s each
+     [java] # Timeout: 10 min per iteration
+     [java] # Threads: 1 thread, will synchronize iterations
+     [java] # Benchmark mode: Average time, time/op
+     [java] # Benchmark: uk.co.real_logic.protobuf.MarketDataBenchmark.testEncode
+     [java] 
+     [java] # Run progress: 37.50% complete, ETA 00:06:13
+     [java] # Fork: 1 of 10
+     [java] # Warmup Iteration   1: 0.657 us/op
+     [java] # Warmup Iteration   2: 0.454 us/op
+     [java] # Warmup Iteration   3: 0.487 us/op
+     [java] Iteration   1: 0.459 us/op
+     [java] Iteration   2: 0.448 us/op
+     [java] Iteration   3: 0.452 us/op
+     [java] 
+     [java] # Run progress: 38.75% complete, ETA 00:06:05
+     [java] # Fork: 2 of 10
+     [java] # Warmup Iteration   1: 0.680 us/op
+     [java] # Warmup Iteration   2: 0.446 us/op
+     [java] # Warmup Iteration   3: 0.455 us/op
+     [java] Iteration   1: 0.456 us/op
+     [java] Iteration   2: 0.455 us/op
+     [java] Iteration   3: 0.466 us/op
+     [java] 
+     [java] # Run progress: 40.00% complete, ETA 00:05:58
+     [java] # Fork: 3 of 10
+     [java] # Warmup Iteration   1: 0.749 us/op
+     [java] # Warmup Iteration   2: 0.449 us/op
+     [java] # Warmup Iteration   3: 0.450 us/op
+     [java] Iteration   1: 0.469 us/op
+     [java] Iteration   2: 0.457 us/op
+     [java] Iteration   3: 0.470 us/op
+     [java] 
+     [java] # Run progress: 41.25% complete, ETA 00:05:50
+     [java] # Fork: 4 of 10
+     [java] # Warmup Iteration   1: 0.694 us/op
+     [java] # Warmup Iteration   2: 0.497 us/op
+     [java] # Warmup Iteration   3: 0.496 us/op
+     [java] Iteration   1: 0.490 us/op
+     [java] Iteration   2: 0.469 us/op
+     [java] Iteration   3: 0.451 us/op
+     [java] 
+     [java] # Run progress: 42.50% complete, ETA 00:05:43
+     [java] # Fork: 5 of 10
+     [java] # Warmup Iteration   1: 0.638 us/op
+     [java] # Warmup Iteration   2: 0.471 us/op
+     [java] # Warmup Iteration   3: 0.577 us/op
+     [java] Iteration   1: 0.444 us/op
+     [java] Iteration   2: 0.491 us/op
+     [java] Iteration   3: 0.458 us/op
+     [java] 
+     [java] # Run progress: 43.75% complete, ETA 00:05:35
+     [java] # Fork: 6 of 10
+     [java] # Warmup Iteration   1: 0.723 us/op
+     [java] # Warmup Iteration   2: 0.461 us/op
+     [java] # Warmup Iteration   3: 0.494 us/op
+     [java] Iteration   1: 0.446 us/op
+     [java] Iteration   2: 0.458 us/op
+     [java] Iteration   3: 0.459 us/op
+     [java] 
+     [java] # Run progress: 45.00% complete, ETA 00:05:28
+     [java] # Fork: 7 of 10
+     [java] # Warmup Iteration   1: 0.677 us/op
+     [java] # Warmup Iteration   2: 0.435 us/op
+     [java] # Warmup Iteration   3: 0.455 us/op
+     [java] Iteration   1: 0.457 us/op
+     [java] Iteration   2: 0.460 us/op
+     [java] Iteration   3: 0.450 us/op
+     [java] 
+     [java] # Run progress: 46.25% complete, ETA 00:05:20
+     [java] # Fork: 8 of 10
+     [java] # Warmup Iteration   1: 0.632 us/op
+     [java] # Warmup Iteration   2: 0.439 us/op
+     [java] # Warmup Iteration   3: 0.440 us/op
+     [java] Iteration   1: 0.442 us/op
+     [java] Iteration   2: 0.456 us/op
+     [java] Iteration   3: 0.454 us/op
+     [java] 
+     [java] # Run progress: 47.50% complete, ETA 00:05:13
+     [java] # Fork: 9 of 10
+     [java] # Warmup Iteration   1: 0.662 us/op
+     [java] # Warmup Iteration   2: 0.440 us/op
+     [java] # Warmup Iteration   3: 0.454 us/op
+     [java] Iteration   1: 0.509 us/op
+     [java] Iteration   2: 0.445 us/op
+     [java] Iteration   3: 0.454 us/op
+     [java] 
+     [java] # Run progress: 48.75% complete, ETA 00:05:05
+     [java] # Fork: 10 of 10
+     [java] # Warmup Iteration   1: 0.706 us/op
+     [java] # Warmup Iteration   2: 0.445 us/op
+     [java] # Warmup Iteration   3: 0.468 us/op
+     [java] Iteration   1: 0.465 us/op
+     [java] Iteration   2: 0.488 us/op
+     [java] Iteration   3: 0.483 us/op
+     [java] 
+     [java] 
+     [java] Result: 0.462 ±(99.9%) 0.011 us/op [Average]
+     [java]   Statistics: (min, avg, max) = (0.442, 0.462, 0.509), stdev = 0.016
+     [java]   Confidence interval (99.9%): [0.451, 0.473]
+     [java] 
+     [java] 
+     [java] # VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+     [java] # VM options: -Dagrona.disable.bounds.checks=true
+     [java] # Warmup: 3 iterations, 1 s each
+     [java] # Measurement: 3 iterations, 1 s each
+     [java] # Timeout: 10 min per iteration
+     [java] # Threads: 1 thread, will synchronize iterations
+     [java] # Benchmark mode: Average time, time/op
+     [java] # Benchmark: uk.co.real_logic.sbe.CarBenchmark.testDecode
+     [java] 
+     [java] # Run progress: 50.00% complete, ETA 00:04:58
+     [java] # Fork: 1 of 10
+     [java] # Warmup Iteration   1: 0.081 us/op
+     [java] # Warmup Iteration   2: 0.078 us/op
+     [java] # Warmup Iteration   3: 0.079 us/op
+     [java] Iteration   1: 0.081 us/op
+     [java] Iteration   2: 0.079 us/op
+     [java] Iteration   3: 0.079 us/op
+     [java] 
+     [java] # Run progress: 51.25% complete, ETA 00:04:50
+     [java] # Fork: 2 of 10
+     [java] # Warmup Iteration   1: 0.078 us/op
+     [java] # Warmup Iteration   2: 0.078 us/op
+     [java] # Warmup Iteration   3: 0.078 us/op
+     [java] Iteration   1: 0.079 us/op
+     [java] Iteration   2: 0.077 us/op
+     [java] Iteration   3: 0.079 us/op
+     [java] 
+     [java] # Run progress: 52.50% complete, ETA 00:04:43
+     [java] # Fork: 3 of 10
+     [java] # Warmup Iteration   1: 0.079 us/op
+     [java] # Warmup Iteration   2: 0.081 us/op
+     [java] # Warmup Iteration   3: 0.078 us/op
+     [java] Iteration   1: 0.079 us/op
+     [java] Iteration   2: 0.079 us/op
+     [java] Iteration   3: 0.080 us/op
+     [java] 
+     [java] # Run progress: 53.75% complete, ETA 00:04:35
+     [java] # Fork: 4 of 10
+     [java] # Warmup Iteration   1: 0.079 us/op
+     [java] # Warmup Iteration   2: 0.078 us/op
+     [java] # Warmup Iteration   3: 0.080 us/op
+     [java] Iteration   1: 0.079 us/op
+     [java] Iteration   2: 0.078 us/op
+     [java] Iteration   3: 0.080 us/op
+     [java] 
+     [java] # Run progress: 55.00% complete, ETA 00:04:28
+     [java] # Fork: 5 of 10
+     [java] # Warmup Iteration   1: 0.089 us/op
+     [java] # Warmup Iteration   2: 0.080 us/op
+     [java] # Warmup Iteration   3: 0.087 us/op
+     [java] Iteration   1: 0.086 us/op
+     [java] Iteration   2: 0.088 us/op
+     [java] Iteration   3: 0.088 us/op
+     [java] 
+     [java] # Run progress: 56.25% complete, ETA 00:04:20
+     [java] # Fork: 6 of 10
+     [java] # Warmup Iteration   1: 0.081 us/op
+     [java] # Warmup Iteration   2: 0.081 us/op
+     [java] # Warmup Iteration   3: 0.081 us/op
+     [java] Iteration   1: 0.080 us/op
+     [java] Iteration   2: 0.081 us/op
+     [java] Iteration   3: 0.081 us/op
+     [java] 
+     [java] # Run progress: 57.50% complete, ETA 00:04:13
+     [java] # Fork: 7 of 10
+     [java] # Warmup Iteration   1: 0.079 us/op
+     [java] # Warmup Iteration   2: 0.079 us/op
+     [java] # Warmup Iteration   3: 0.079 us/op
+     [java] Iteration   1: 0.085 us/op
+     [java] Iteration   2: 0.080 us/op
+     [java] Iteration   3: 0.080 us/op
+     [java] 
+     [java] # Run progress: 58.75% complete, ETA 00:04:06
+     [java] # Fork: 8 of 10
+     [java] # Warmup Iteration   1: 0.081 us/op
+     [java] # Warmup Iteration   2: 0.080 us/op
+     [java] # Warmup Iteration   3: 0.081 us/op
+     [java] Iteration   1: 0.080 us/op
+     [java] Iteration   2: 0.080 us/op
+     [java] Iteration   3: 0.080 us/op
+     [java] 
+     [java] # Run progress: 60.00% complete, ETA 00:03:58
+     [java] # Fork: 9 of 10
+     [java] # Warmup Iteration   1: 0.080 us/op
+     [java] # Warmup Iteration   2: 0.079 us/op
+     [java] # Warmup Iteration   3: 0.080 us/op
+     [java] Iteration   1: 0.079 us/op
+     [java] Iteration   2: 0.080 us/op
+     [java] Iteration   3: 0.080 us/op
+     [java] 
+     [java] # Run progress: 61.25% complete, ETA 00:03:51
+     [java] # Fork: 10 of 10
+     [java] # Warmup Iteration   1: 0.080 us/op
+     [java] # Warmup Iteration   2: 0.079 us/op
+     [java] # Warmup Iteration   3: 0.079 us/op
+     [java] Iteration   1: 0.079 us/op
+     [java] Iteration   2: 0.079 us/op
+     [java] Iteration   3: 0.079 us/op
+     [java] 
+     [java] 
+     [java] Result: 0.081 ±(99.9%) 0.002 us/op [Average]
+     [java]   Statistics: (min, avg, max) = (0.077, 0.081, 0.088), stdev = 0.003
+     [java]   Confidence interval (99.9%): [0.079, 0.082]
+     [java] 
+     [java] 
+     [java] # VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+     [java] # VM options: -Dagrona.disable.bounds.checks=true
+     [java] # Warmup: 3 iterations, 1 s each
+     [java] # Measurement: 3 iterations, 1 s each
+     [java] # Timeout: 10 min per iteration
+     [java] # Threads: 1 thread, will synchronize iterations
+     [java] # Benchmark mode: Average time, time/op
+     [java] # Benchmark: uk.co.real_logic.sbe.CarBenchmark.testEncode
+     [java] 
+     [java] # Run progress: 62.50% complete, ETA 00:03:43
+     [java] # Fork: 1 of 10
+     [java] # Warmup Iteration   1: 0.090 us/op
+     [java] # Warmup Iteration   2: 0.086 us/op
+     [java] # Warmup Iteration   3: 0.089 us/op
+     [java] Iteration   1: 0.090 us/op
+     [java] Iteration   2: 0.091 us/op
+     [java] Iteration   3: 0.091 us/op
+     [java] 
+     [java] # Run progress: 63.75% complete, ETA 00:03:36
+     [java] # Fork: 2 of 10
+     [java] # Warmup Iteration   1: 0.090 us/op
+     [java] # Warmup Iteration   2: 0.088 us/op
+     [java] # Warmup Iteration   3: 0.090 us/op
+     [java] Iteration   1: 0.089 us/op
+     [java] Iteration   2: 0.089 us/op
+     [java] Iteration   3: 0.089 us/op
+     [java] 
+     [java] # Run progress: 65.00% complete, ETA 00:03:28
+     [java] # Fork: 3 of 10
+     [java] # Warmup Iteration   1: 0.090 us/op
+     [java] # Warmup Iteration   2: 0.091 us/op
+     [java] # Warmup Iteration   3: 0.091 us/op
+     [java] Iteration   1: 0.092 us/op
+     [java] Iteration   2: 0.089 us/op
+     [java] Iteration   3: 0.088 us/op
+     [java] 
+     [java] # Run progress: 66.25% complete, ETA 00:03:21
+     [java] # Fork: 4 of 10
+     [java] # Warmup Iteration   1: 0.089 us/op
+     [java] # Warmup Iteration   2: 0.089 us/op
+     [java] # Warmup Iteration   3: 0.089 us/op
+     [java] Iteration   1: 0.088 us/op
+     [java] Iteration   2: 0.089 us/op
+     [java] Iteration   3: 0.089 us/op
+     [java] 
+     [java] # Run progress: 67.50% complete, ETA 00:03:13
+     [java] # Fork: 5 of 10
+     [java] # Warmup Iteration   1: 0.091 us/op
+     [java] # Warmup Iteration   2: 0.089 us/op
+     [java] # Warmup Iteration   3: 0.088 us/op
+     [java] Iteration   1: 0.089 us/op
+     [java] Iteration   2: 0.087 us/op
+     [java] Iteration   3: 0.089 us/op
+     [java] 
+     [java] # Run progress: 68.75% complete, ETA 00:03:06
+     [java] # Fork: 6 of 10
+     [java] # Warmup Iteration   1: 0.087 us/op
+     [java] # Warmup Iteration   2: 0.119 us/op
+     [java] # Warmup Iteration   3: 0.097 us/op
+     [java] Iteration   1: 0.088 us/op
+     [java] Iteration   2: 0.088 us/op
+     [java] Iteration   3: 0.089 us/op
+     [java] 
+     [java] # Run progress: 70.00% complete, ETA 00:02:58
+     [java] # Fork: 7 of 10
+     [java] # Warmup Iteration   1: 0.089 us/op
+     [java] # Warmup Iteration   2: 0.089 us/op
+     [java] # Warmup Iteration   3: 0.089 us/op
+     [java] Iteration   1: 0.088 us/op
+     [java] Iteration   2: 0.089 us/op
+     [java] Iteration   3: 0.088 us/op
+     [java] 
+     [java] # Run progress: 71.25% complete, ETA 00:02:51
+     [java] # Fork: 8 of 10
+     [java] # Warmup Iteration   1: 0.089 us/op
+     [java] # Warmup Iteration   2: 0.087 us/op
+     [java] # Warmup Iteration   3: 0.090 us/op
+     [java] Iteration   1: 0.090 us/op
+     [java] Iteration   2: 0.090 us/op
+     [java] Iteration   3: 0.090 us/op
+     [java] 
+     [java] # Run progress: 72.50% complete, ETA 00:02:43
+     [java] # Fork: 9 of 10
+     [java] # Warmup Iteration   1: 0.091 us/op
+     [java] # Warmup Iteration   2: 0.089 us/op
+     [java] # Warmup Iteration   3: 0.090 us/op
+     [java] Iteration   1: 0.089 us/op
+     [java] Iteration   2: 0.090 us/op
+     [java] Iteration   3: 0.090 us/op
+     [java] 
+     [java] # Run progress: 73.75% complete, ETA 00:02:36
+     [java] # Fork: 10 of 10
+     [java] # Warmup Iteration   1: 0.093 us/op
+     [java] # Warmup Iteration   2: 0.089 us/op
+     [java] # Warmup Iteration   3: 0.090 us/op
+     [java] Iteration   1: 0.089 us/op
+     [java] Iteration   2: 0.090 us/op
+     [java] Iteration   3: 0.090 us/op
+     [java] 
+     [java] 
+     [java] Result: 0.089 ±(99.9%) 0.001 us/op [Average]
+     [java]   Statistics: (min, avg, max) = (0.087, 0.089, 0.092), stdev = 0.001
+     [java]   Confidence interval (99.9%): [0.089, 0.090]
+     [java] 
+     [java] 
+     [java] # VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+     [java] # VM options: -Dagrona.disable.bounds.checks=true
+     [java] # Warmup: 3 iterations, 1 s each
+     [java] # Measurement: 3 iterations, 1 s each
+     [java] # Timeout: 10 min per iteration
+     [java] # Threads: 1 thread, will synchronize iterations
+     [java] # Benchmark mode: Average time, time/op
+     [java] # Benchmark: uk.co.real_logic.sbe.MarketDataBenchmark.testDecode
+     [java] 
+     [java] # Run progress: 75.00% complete, ETA 00:02:29
+     [java] # Fork: 1 of 10
+     [java] # Warmup Iteration   1: 0.022 us/op
+     [java] # Warmup Iteration   2: 0.024 us/op
+     [java] # Warmup Iteration   3: 0.023 us/op
+     [java] Iteration   1: 0.024 us/op
+     [java] Iteration   2: 0.023 us/op
+     [java] Iteration   3: 0.023 us/op
+     [java] 
+     [java] # Run progress: 76.25% complete, ETA 00:02:21
+     [java] # Fork: 2 of 10
+     [java] # Warmup Iteration   1: 0.022 us/op
+     [java] # Warmup Iteration   2: 0.024 us/op
+     [java] # Warmup Iteration   3: 0.023 us/op
+     [java] Iteration   1: 0.023 us/op
+     [java] Iteration   2: 0.023 us/op
+     [java] Iteration   3: 0.023 us/op
+     [java] 
+     [java] # Run progress: 77.50% complete, ETA 00:02:14
+     [java] # Fork: 3 of 10
+     [java] # Warmup Iteration   1: 0.023 us/op
+     [java] # Warmup Iteration   2: 0.023 us/op
+     [java] # Warmup Iteration   3: 0.023 us/op
+     [java] Iteration   1: 0.023 us/op
+     [java] Iteration   2: 0.025 us/op
+     [java] Iteration   3: 0.023 us/op
+     [java] 
+     [java] # Run progress: 78.75% complete, ETA 00:02:06
+     [java] # Fork: 4 of 10
+     [java] # Warmup Iteration   1: 0.023 us/op
+     [java] # Warmup Iteration   2: 0.025 us/op
+     [java] # Warmup Iteration   3: 0.022 us/op
+     [java] Iteration   1: 0.022 us/op
+     [java] Iteration   2: 0.022 us/op
+     [java] Iteration   3: 0.024 us/op
+     [java] 
+     [java] # Run progress: 80.00% complete, ETA 00:01:59
+     [java] # Fork: 5 of 10
+     [java] # Warmup Iteration   1: 0.022 us/op
+     [java] # Warmup Iteration   2: 0.024 us/op
+     [java] # Warmup Iteration   3: 0.024 us/op
+     [java] Iteration   1: 0.022 us/op
+     [java] Iteration   2: 0.022 us/op
+     [java] Iteration   3: 0.022 us/op
+     [java] 
+     [java] # Run progress: 81.25% complete, ETA 00:01:51
+     [java] # Fork: 6 of 10
+     [java] # Warmup Iteration   1: 0.022 us/op
+     [java] # Warmup Iteration   2: 0.024 us/op
+     [java] # Warmup Iteration   3: 0.023 us/op
+     [java] Iteration   1: 0.023 us/op
+     [java] Iteration   2: 0.023 us/op
+     [java] Iteration   3: 0.023 us/op
+     [java] 
+     [java] # Run progress: 82.50% complete, ETA 00:01:44
+     [java] # Fork: 7 of 10
+     [java] # Warmup Iteration   1: 0.023 us/op
+     [java] # Warmup Iteration   2: 0.024 us/op
+     [java] # Warmup Iteration   3: 0.024 us/op
+     [java] Iteration   1: 0.031 us/op
+     [java] Iteration   2: 0.023 us/op
+     [java] Iteration   3: 0.022 us/op
+     [java] 
+     [java] # Run progress: 83.75% complete, ETA 00:01:36
+     [java] # Fork: 8 of 10
+     [java] # Warmup Iteration   1: 0.022 us/op
+     [java] # Warmup Iteration   2: 0.023 us/op
+     [java] # Warmup Iteration   3: 0.022 us/op
+     [java] Iteration   1: 0.022 us/op
+     [java] Iteration   2: 0.023 us/op
+     [java] Iteration   3: 0.022 us/op
+     [java] 
+     [java] # Run progress: 85.00% complete, ETA 00:01:29
+     [java] # Fork: 9 of 10
+     [java] # Warmup Iteration   1: 0.022 us/op
+     [java] # Warmup Iteration   2: 0.024 us/op
+     [java] # Warmup Iteration   3: 0.023 us/op
+     [java] Iteration   1: 0.028 us/op
+     [java] Iteration   2: 0.022 us/op
+     [java] Iteration   3: 0.022 us/op
+     [java] 
+     [java] # Run progress: 86.25% complete, ETA 00:01:21
+     [java] # Fork: 10 of 10
+     [java] # Warmup Iteration   1: 0.024 us/op
+     [java] # Warmup Iteration   2: 0.032 us/op
+     [java] # Warmup Iteration   3: 0.022 us/op
+     [java] Iteration   1: 0.022 us/op
+     [java] Iteration   2: 0.022 us/op
+     [java] Iteration   3: 0.022 us/op
+     [java] 
+     [java] 
+     [java] Result: 0.023 ±(99.9%) 0.001 us/op [Average]
+     [java]   Statistics: (min, avg, max) = (0.022, 0.023, 0.031), stdev = 0.002
+     [java]   Confidence interval (99.9%): [0.022, 0.024]
+     [java] 
+     [java] 
+     [java] # VM invoker: C:\Program Files\Java\jdk1.8.0_65\jre\bin\java.exe
+     [java] # VM options: -Dagrona.disable.bounds.checks=true
+     [java] # Warmup: 3 iterations, 1 s each
+     [java] # Measurement: 3 iterations, 1 s each
+     [java] # Timeout: 10 min per iteration
+     [java] # Threads: 1 thread, will synchronize iterations
+     [java] # Benchmark mode: Average time, time/op
+     [java] # Benchmark: uk.co.real_logic.sbe.MarketDataBenchmark.testEncode
+     [java] 
+     [java] # Run progress: 87.50% complete, ETA 00:01:14
+     [java] # Fork: 1 of 10
+     [java] # Warmup Iteration   1: 0.025 us/op
+     [java] # Warmup Iteration   2: 0.024 us/op
+     [java] # Warmup Iteration   3: 0.025 us/op
+     [java] Iteration   1: 0.025 us/op
+     [java] Iteration   2: 0.026 us/op
+     [java] Iteration   3: 0.025 us/op
+     [java] 
+     [java] # Run progress: 88.75% complete, ETA 00:01:07
+     [java] # Fork: 2 of 10
+     [java] # Warmup Iteration   1: 0.024 us/op
+     [java] # Warmup Iteration   2: 0.024 us/op
+     [java] # Warmup Iteration   3: 0.024 us/op
+     [java] Iteration   1: 0.025 us/op
+     [java] Iteration   2: 0.025 us/op
+     [java] Iteration   3: 0.024 us/op
+     [java] 
+     [java] # Run progress: 90.00% complete, ETA 00:00:59
+     [java] # Fork: 3 of 10
+     [java] # Warmup Iteration   1: 0.025 us/op
+     [java] # Warmup Iteration   2: 0.025 us/op
+     [java] # Warmup Iteration   3: 0.025 us/op
+     [java] Iteration   1: 0.024 us/op
+     [java] Iteration   2: 0.025 us/op
+     [java] Iteration   3: 0.027 us/op
+     [java] 
+     [java] # Run progress: 91.25% complete, ETA 00:00:52
+     [java] # Fork: 4 of 10
+     [java] # Warmup Iteration   1: 0.025 us/op
+     [java] # Warmup Iteration   2: 0.028 us/op
+     [java] # Warmup Iteration   3: 0.025 us/op
+     [java] Iteration   1: 0.026 us/op
+     [java] Iteration   2: 0.029 us/op
+     [java] Iteration   3: 0.026 us/op
+     [java] 
+     [java] # Run progress: 92.50% complete, ETA 00:00:44
+     [java] # Fork: 5 of 10
+     [java] # Warmup Iteration   1: 0.033 us/op
+     [java] # Warmup Iteration   2: 0.024 us/op
+     [java] # Warmup Iteration   3: 0.024 us/op
+     [java] Iteration   1: 0.024 us/op
+     [java] Iteration   2: 0.024 us/op
+     [java] Iteration   3: 0.024 us/op
+     [java] 
+     [java] # Run progress: 93.75% complete, ETA 00:00:37
+     [java] # Fork: 6 of 10
+     [java] # Warmup Iteration   1: 0.025 us/op
+     [java] # Warmup Iteration   2: 0.025 us/op
+     [java] # Warmup Iteration   3: 0.025 us/op
+     [java] Iteration   1: 0.025 us/op
+     [java] Iteration   2: 0.024 us/op
+     [java] Iteration   3: 0.025 us/op
+     [java] 
+     [java] # Run progress: 95.00% complete, ETA 00:00:29
+     [java] # Fork: 7 of 10
+     [java] # Warmup Iteration   1: 0.026 us/op
+     [java] # Warmup Iteration   2: 0.025 us/op
+     [java] # Warmup Iteration   3: 0.025 us/op
+     [java] Iteration   1: 0.024 us/op
+     [java] Iteration   2: 0.024 us/op
+     [java] Iteration   3: 0.025 us/op
+     [java] 
+     [java] # Run progress: 96.25% complete, ETA 00:00:22
+     [java] # Fork: 8 of 10
+     [java] # Warmup Iteration   1: 0.026 us/op
+     [java] # Warmup Iteration   2: 0.025 us/op
+     [java] # Warmup Iteration   3: 0.027 us/op
+     [java] Iteration   1: 0.028 us/op
+     [java] Iteration   2: 0.028 us/op
+     [java] Iteration   3: 0.027 us/op
+     [java] 
+     [java] # Run progress: 97.50% complete, ETA 00:00:14
+     [java] # Fork: 9 of 10
+     [java] # Warmup Iteration   1: 0.025 us/op
+     [java] # Warmup Iteration   2: 0.024 us/op
+     [java] # Warmup Iteration   3: 0.024 us/op
+     [java] Iteration   1: 0.025 us/op
+     [java] Iteration   2: 0.025 us/op
+     [java] Iteration   3: 0.026 us/op
+     [java] 
+     [java] # Run progress: 98.75% complete, ETA 00:00:07
+     [java] # Fork: 10 of 10
+     [java] # Warmup Iteration   1: 0.025 us/op
+     [java] # Warmup Iteration   2: 0.024 us/op
+     [java] # Warmup Iteration   3: 0.025 us/op
+     [java] Iteration   1: 0.025 us/op
+     [java] Iteration   2: 0.025 us/op
+     [java] Iteration   3: 0.025 us/op
+     [java] 
+     [java] 
+     [java] Result: 0.025 ±(99.9%) 0.001 us/op [Average]
+     [java]   Statistics: (min, avg, max) = (0.024, 0.025, 0.029), stdev = 0.001
+     [java]   Confidence interval (99.9%): [0.024, 0.026]
+     [java] 
+     [java] 
+     [java] # Run complete. Total time: 00:09:55
+     [java] 
+     [java] Benchmark                                        Mode  Samples  Score  Score error  Units
+     [java] u.c.r.protobuf.CarBenchmark.testDecode           avgt       30  1.930        0.804  us/op
+     [java] u.c.r.protobuf.CarBenchmark.testEncode           avgt       30  1.666        0.120  us/op
+     [java] u.c.r.protobuf.MarketDataBenchmark.testDecode    avgt       30  0.460        0.010  us/op
+     [java] u.c.r.protobuf.MarketDataBenchmark.testEncode    avgt       30  0.462        0.011  us/op
+     [java] u.c.r.sbe.CarBenchmark.testDecode                avgt       30  0.081        0.002  us/op
+     [java] u.c.r.sbe.CarBenchmark.testEncode                avgt       30  0.089        0.001  us/op
+     [java] u.c.r.sbe.MarketDataBenchmark.testDecode         avgt       30  0.023        0.001  us/op
+     [java] u.c.r.sbe.MarketDataBenchmark.testEncode         avgt       30  0.025        0.001  us/op
+
+BUILD SUCCESSFUL
+Total time: 10 minutes 0 seconds
